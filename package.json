@@ -1,0 +1,34 @@
+{
+  "name": "blacklisted-code-action",
+  "version": "1.0.0",
+  "description": "Blacklists Code",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cossth/blacklisted-code-action.git"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "blacklist",
+    "code"
+  ],
+  "author": "Shubham Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cossth/blacklisted-code-action/issues"
+  },
+  "homepage": "https://github.com/cossth/blacklisted-code-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "rollup": "^4.52.3"
+  }
+}

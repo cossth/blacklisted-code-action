@@ -1,0 +1,12 @@
+name: BlackList Code
+description: Checks code for any blacklisted lines
+
+inputs:
+  allow-list:
+    description: Whitelist file for all the allowed occurrences.
+    required: false
+    default: '.github/allowed-code-exceptions.txt'
+
+runs:
+  using: node22
+  main: index.js
