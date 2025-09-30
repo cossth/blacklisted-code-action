@@ -1,6 +1,6 @@
 {
   "name": "blacklisted-code-action",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Blacklists Code",
   "main": "index.js",
   "scripts": {
